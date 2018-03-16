@@ -1,0 +1,53 @@
+{
+  "name": "postcss-tetrad",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin to get tetrad of a color",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "https://github.com/arpadHegedus/postcss-tetrad.git",
+  "homepage": "https://github.com/arpadHegedus/postcss-tetrad#readme",
+  "bugs": "https://github.com/arpadHegedus/postcss-tetrad/issues",
+  "keywords": [
+    "postcss",
+    "postcss-plugin",
+    "preprocessor",
+    "plugin",
+    "css",
+    "style",
+    "tetrad",
+    "chromatism",
+    "color"
+  ],
+  "author": "Arpad Hegedus <hegedus.arpad@gmail.com> (http://arpadhegedus.com)",
+  "contributors": [
+    "Arpad Hegedus <hegedus.arpad@gmail.com> (http://arpadhegedus.com)"
+  ],
+  "maintainers": [
+    "Arpad Hegedus <hegedus.arpad@gmail.com> (http://arpadhegedus.com)"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "env": {
+      "es6": true,
+      "jest": true
+    }
+  },
+  "jest": {},
+  "dependencies": {
+    "postcss": "^6.0.19",
+    "postcss-plugin-utilities": "^2.2.2",
+    "chromatism": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  }
+}
